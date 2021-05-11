@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearlayoutALLList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:padding="5dp">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/questionAllList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question" />
+
+        <TextView
+            android:id="@+id/AALLList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selectedAnswer" />
+        <TextView
+            android:id="@+id/BALLList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selectedAnswer" />
+        <TextView
+            android:id="@+id/CALLList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selectedAnswer" />
+        <TextView
+            android:id="@+id/DALLList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/correctAnswer" />
+        <TextView
+            android:id="@+id/selectedALLList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/correctAnswer" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

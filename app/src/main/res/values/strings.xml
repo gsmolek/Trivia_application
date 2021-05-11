@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">finalProject</string>
+    <string name="arcadeButton">Arcade Mode</string>
+    <string name="practiceButton">Practice Mode</string>
+    <string name="practice_over">PRACTICE OVER</string>
+    <string name="grade">GRADE:</string>
+    <string name="correct">CORRECT:</string>
+    <string name="mainMenuButton">Main Menu</string>
+    <string name="restartButton">Restart</string>
+    <string name="points">Points:</string>
+    <string name="allList">All Questions:</string>
+    <string name="newRecord">New Record!:</string>
+    <string name="OK">OK</string>
+    <string name="TestSettings">Set the Test Setting:</string>
+    <string name="NumberofQuestions">select the number of questions:</string>
+    <string name="clicknumberhere">Click the number here</string>
+    <string name="result">result</string>
+    <string name="question">Question</string>
+    <string name="correctAnswer">Correct Answer</string>
+    <string name="selectedAnswer">Selected Answer</string>
+    <string name="reset">Reset</string>
+</resources>

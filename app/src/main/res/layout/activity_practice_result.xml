@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearlayoutList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/reusltList"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/result"
+        app:srcCompat="@drawable/v" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/questionList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question" />
+
+        <TextView
+            android:id="@+id/selectedList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selectedAnswer" />
+        <TextView
+            android:id="@+id/correctList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/correctAnswer" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
